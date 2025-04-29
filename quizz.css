@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+ }
+ body{
+     background-color: rgb(46, 46, 107); 
+ }
+ .app{
+     background: #fdfbfb;
+     width: 90%;
+     max-width: 600px;
+     margin: 100px  auto 0;
+     padding: 30px 40px;
+     border: 2px;
+     border-radius: 10px; 
+ }
+ .app h1{
+     font-size: 30px;
+     font-weight: 600;
+ }
+ .header{
+    display: flex;
+    align-items: center;
+    padding:  14px 25px;
+    justify-content: space-between;
+    border-bottom: 1px solid #2b2b2b;
+    padding-bottom: 30px; 
+ }
+  #timer{
+    display: inline-flex;
+    background-color: #2b2b2b;
+    color: #fff;
+    padding: 10px;
+    border: 10px;
+    border-radius: 5px;
+  }
+ .quiz{
+     padding: 20px 0 ;
+ }
+ .quiz h2{
+     font-size: 18px;
+     font-weight: 500;
+ }
+ .btn{
+     background-color: #fff;
+     color: #1c1b1b;
+     font-weight: 500;
+     width: 100%;
+     border: 1px solid #1c1b1b;
+     padding: 10px;
+     margin: 10px 0 0 0;
+     text-align: left;
+     border-radius: 4px;
+     cursor: pointer;
+     transition: all 0.3s;
+ }
+ .btn:hover:not([disabled]){
+     background-color: #2b2b2b;
+     color: #fff;
+ }
+ .btn:disabled{
+     cursor: no-drop;
+ }
+ #Question{
+     padding: 20px 0 10px 0;
+ }
+ #next_Button{
+     background-color:#2b2b2b ;
+     color: #fff;
+     font-weight: 500;
+     width: 150px;
+     padding: 10px;
+     border: 0;
+     margin: 20px auto 0;
+     border-radius: 5px;
+     cursor: pointer;
+     display: none;
+ }
+ .correct{
+       background: rgb(32, 128, 32);
+ }
+ .incorrect{
+       background:  rgb(171, 44, 44);
+ }
